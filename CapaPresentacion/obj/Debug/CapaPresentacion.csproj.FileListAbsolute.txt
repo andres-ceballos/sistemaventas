@@ -10,3 +10,4 @@ C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\De
 C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
