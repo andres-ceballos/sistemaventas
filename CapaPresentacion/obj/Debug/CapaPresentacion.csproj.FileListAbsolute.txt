@@ -11,3 +11,9 @@ C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\De
 C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
 C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.Login.resources
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\bin\Debug\CapaEntidad.dll
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\bin\Debug\CapaNegocio.dll
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\bin\Debug\CapaDatos.dll
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\bin\Debug\CapaEntidad.pdb
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb

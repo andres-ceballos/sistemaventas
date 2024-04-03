@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaEntidad;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +8,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
+using CapaNegocio;
+using CapaEntidad;
 
 namespace CapaPresentacion
 {
@@ -24,12 +28,22 @@ namespace CapaPresentacion
 
         private void btnIngresar_Click(object sender, EventArgs e)
         {
-            Inicio form = new Inicio();
+            List<Usuario> TEST = new CN_Usuario().Listar();
 
-            form.Show();
-            this.Hide();
+            Usuario objUsuario = new CN_Usuario().Listar().Where(u => u.Documento == txtDocumento.Text && u.Clave == txtContrasena.Text).FirstOrDefault();
 
-            form.FormClosing += frm_Closing;
+            if(objUsuario != null)
+            {
+                Inicio form = new Inicio();
+
+                form.Show();
+                this.Hide();
+
+                form.FormClosing += frm_Closing;
+
+            }else{
+                MessageBox.Show("No se encontró el usuario", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
          
         }
 
