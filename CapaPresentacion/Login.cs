@@ -34,7 +34,7 @@ namespace CapaPresentacion
 
             if(objUsuario != null)
             {
-                Inicio form = new Inicio();
+                Inicio form = new Inicio(objUsuario);
 
                 form.Show();
                 this.Hide();

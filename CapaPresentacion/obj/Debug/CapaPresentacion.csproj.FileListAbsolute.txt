@@ -17,3 +17,13 @@ C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\bin\De
 C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\bin\Debug\CapaEntidad.pdb
 C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\bin\Debug\CapaNegocio.pdb
 C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\bin\Debug\CapaDatos.pdb
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCategoria.resources
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmClientes.resources
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmCompras.resources
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProducto.resources
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmProveedores.resources
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmReportes.resources
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmUsuarios.resources
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmVentas.resources
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleCompra.resources
+C:\Users\andres.ceballos\source\repos\CursoSistemaVentas\CapaPresentacion\obj\Debug\CapaPresentacion.frmDetalleVenta.resources
