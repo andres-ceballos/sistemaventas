@@ -58,7 +58,7 @@
             this.menuTitulo.Location = new System.Drawing.Point(0, 0);
             this.menuTitulo.Name = "menuTitulo";
             this.menuTitulo.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.menuTitulo.Size = new System.Drawing.Size(800, 52);
+            this.menuTitulo.Size = new System.Drawing.Size(834, 52);
             this.menuTitulo.TabIndex = 0;
             this.menuTitulo.Text = "menuStrip1";
             // 
@@ -76,7 +76,7 @@
             this.menuAcercaDe});
             this.menu.Location = new System.Drawing.Point(0, 52);
             this.menu.Name = "menu";
-            this.menu.Size = new System.Drawing.Size(800, 73);
+            this.menu.Size = new System.Drawing.Size(834, 73);
             this.menu.TabIndex = 2;
             this.menu.Text = "menuStrip2";
             // 
@@ -152,7 +152,7 @@
             this.subMenuRegistrarVenta.IconColor = System.Drawing.Color.Black;
             this.subMenuRegistrarVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuRegistrarVenta.Name = "subMenuRegistrarVenta";
-            this.subMenuRegistrarVenta.Size = new System.Drawing.Size(180, 22);
+            this.subMenuRegistrarVenta.Size = new System.Drawing.Size(129, 22);
             this.subMenuRegistrarVenta.Text = "Registrar";
             this.subMenuRegistrarVenta.Click += new System.EventHandler(this.subMenuRegistrarVenta_Click);
             // 
@@ -162,7 +162,7 @@
             this.subMenuDetalleVenta.IconColor = System.Drawing.Color.Black;
             this.subMenuDetalleVenta.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuDetalleVenta.Name = "subMenuDetalleVenta";
-            this.subMenuDetalleVenta.Size = new System.Drawing.Size(180, 22);
+            this.subMenuDetalleVenta.Size = new System.Drawing.Size(129, 22);
             this.subMenuDetalleVenta.Text = "Ver Detalle";
             this.subMenuDetalleVenta.Click += new System.EventHandler(this.subMenuDetalleVenta_Click);
             // 
@@ -188,7 +188,7 @@
             this.subMenuRegistrarCompra.IconColor = System.Drawing.Color.Black;
             this.subMenuRegistrarCompra.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuRegistrarCompra.Name = "subMenuRegistrarCompra";
-            this.subMenuRegistrarCompra.Size = new System.Drawing.Size(180, 22);
+            this.subMenuRegistrarCompra.Size = new System.Drawing.Size(129, 22);
             this.subMenuRegistrarCompra.Text = "Registrar";
             this.subMenuRegistrarCompra.Click += new System.EventHandler(this.subMenuRegistrarCompra_Click);
             // 
@@ -198,7 +198,7 @@
             this.subMenuDetalleCompra.IconColor = System.Drawing.Color.Black;
             this.subMenuDetalleCompra.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.subMenuDetalleCompra.Name = "subMenuDetalleCompra";
-            this.subMenuDetalleCompra.Size = new System.Drawing.Size(180, 22);
+            this.subMenuDetalleCompra.Size = new System.Drawing.Size(129, 22);
             this.subMenuDetalleCompra.Text = "Ver Detalle";
             this.subMenuDetalleCompra.Click += new System.EventHandler(this.subMenuDetalleCompra_Click);
             // 
@@ -274,7 +274,7 @@
             this.contenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.contenedor.Location = new System.Drawing.Point(0, 125);
             this.contenedor.Name = "contenedor";
-            this.contenedor.Size = new System.Drawing.Size(800, 325);
+            this.contenedor.Size = new System.Drawing.Size(834, 486);
             this.contenedor.TabIndex = 4;
             this.contenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.contenedor_Paint);
             // 
@@ -284,7 +284,7 @@
             this.label2.BackColor = System.Drawing.Color.SteelBlue;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(590, 22);
+            this.label2.Location = new System.Drawing.Point(614, 22);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(65, 17);
             this.label2.TabIndex = 5;
@@ -296,7 +296,7 @@
             this.lblUsuario.BackColor = System.Drawing.Color.SteelBlue;
             this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsuario.ForeColor = System.Drawing.Color.White;
-            this.lblUsuario.Location = new System.Drawing.Point(652, 22);
+            this.lblUsuario.Location = new System.Drawing.Point(674, 22);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(71, 17);
             this.lblUsuario.TabIndex = 6;
@@ -307,7 +307,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(834, 611);
             this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.contenedor);
