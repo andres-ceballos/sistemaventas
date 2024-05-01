@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using CapaPresentacion.Utilidades;
+using CapaEntidad;
+using CapaNegocio;
+
 namespace CapaPresentacion
 {
     public partial class frmUsuarios : Form
@@ -17,57 +21,27 @@ namespace CapaPresentacion
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void frmUsuarios_Load(object sender, EventArgs e)
         {
+            //COMBOBOX ROL
+            List<Rol> listaRol = new CN_Rol().Listar();
+            foreach (Rol item in listaRol)
+            {
+                cboRol.Items.Add(new OpcionCombo() { Valor = item.idRol, Texto = item.Descripcion });
+            }
+            cboRol.DisplayMember = "Texto";
+            cboRol.ValueMember = "Valor";
+            cboRol.SelectedIndex = 0;
 
+            //COMBOBOX ESTADO
+            cboEstado.Items.Add(new OpcionCombo() { Valor = 1, Texto = "Activo" });
+            cboEstado.Items.Add(new OpcionCombo() { Valor = 0, Texto = "No Activo" });
+            cboEstado.DisplayMember = "Texto";
+            cboEstado.ValueMember = "Valor";
+            cboEstado.SelectedIndex = 0;
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label5_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtClave_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cboEstado_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtConfirmarClave_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void cboRol_SelectedIndexChanged(object sender, EventArgs e)
+        private void btnGuardar_Click(object sender, EventArgs e)
         {
 
         }
